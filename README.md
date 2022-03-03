@@ -1,2 +1,2 @@
-# Fluke289_data_access
-A series of Python scripts to access measurements from Fluke 28X meters. Fluke IR Remote Interface required.
+Fluke289_data_access
+A series of Python scripts to access measurements from Fluke 28X meters. Fluke IR Remote Interface required. Created from information provided in Fluke Remote IR documentaton cited in eevblog threads. Buy a Remote Interface from Fluke to access meter data, Some come with FlukeView--a form-completion application--that is well worth the money for paid work by skilled technicians
