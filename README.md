@@ -1,5 +1,5 @@
 **Fluke289_data_access**
-A series of Python scripts to access measurements from Fluke 28X meters. Fluke IR Remote Interface required. Created from information provided in Fluke Remote IR documentaton cited in eevblog threads. Buy a Remote Interface from Fluke to access meter data, Some come with FlukeView--a form-completion application--that is well worth the money for paid work by skilled technicians.
+A series of Python scripts to access measurements from Fluke 28X meters. Fluke IR Remote Interface required. Created from information provided in Fluke Remote IR documentaton cited in eevblog threads. Buy a Remote Interface from Fluke to access meter data, some come with FlukeView--a form-completion application--that is well worth the money for paid work by skilled technicians.
 
 Getting data from an instrument display for logging can be difficult, if not impossible, without a pathway into the device via GPIB, TCPIP, or other comm port. Messing with JTAG or sniffing the signal is far beyond the capabilities of most folks interested in using the data obtained, so "Hats off" to authors of software for reading and fetching data from an operating meter during measurement. Thanks as well to manufacturers who have provided logging capabilities in their instruments and made them accessible to users. That is the modern way . . .
 
