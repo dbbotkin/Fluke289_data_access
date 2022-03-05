@@ -7,7 +7,7 @@ Some meters are far more locked-down for reasons of security and protection of t
 
 Other than the obvious, why is this a problem? Well, the Fluke 289 has the ability to capture data unattended for days at a time under battery power and preserve a detailed log for later retrieval. It can do this because it sleeps between samples using precious little power and does not rely on disks or tape for storage. 
 
-I have a couple of other logging meters (Uni-T 61E, for example) that will output readings to a PC and MooshiMeter that logs via Bluetooth, also to another device. Not even in the same league as Fluke 28X series.
+Other logging meters (Uni-T 61E, for example) will output readings to a PC and MooshiMeter logs via Bluetooth, also to another device. Not even in the same league as Fluke 28X series.
 
 What would be better would be the ability to access the Fluke 289 recorded data directly, 'read-only' of course, much in the same way as getting data from a modern Keithley or Keysight bench meter. To that end, I'm contributing to a long-standing 289 eevblog forum thread:https://www.eevblog.com/forum/reviews/going-further-with-the-fluke-289 
 
