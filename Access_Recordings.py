@@ -1,3 +1,30 @@
+import serial
+import time
+
+ser = serial.Serial()
+
+# Setup logging
+ser.port = '/dev/cu.usbserial-AC00FZQJ'    # MY Serial port; find your . . .
+logging_period = 1 # seconds
+no_of_records = 5 # how many records to record
+
+
+# Serial port setup and open
+ser.baudrate = 115200
+ser.bytesize = serial.EIGHTBITS
+ser.parity = serial.PARITY_NONE
+ser.stopbits = serial.STOPBITS_ONE
+ser.xonxoff = True
+ser.rtscts = False
+ser.dsrdtr = False
+ser.timeout = 0.1  # seconds
+try:
+    ser.open()
+except:
+    print("Cannot open serial port...")
+    exit()
+
+
 def do_recordings(records):
   nb_recordings = int(qsls()['nb_recordings'])
   if len(records) != 0:
