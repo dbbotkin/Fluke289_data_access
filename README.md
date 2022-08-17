@@ -9,6 +9,6 @@ Other than the obvious, why is this a problem? Well, the Fluke 289 has the abili
 
 Other logging meters (Uni-T 61E, for example) will output readings to a PC and MooshiMeter logs via Bluetooth, also to another device. Not even in the same league as Fluke 28X series.
 
-What would be better would be the ability to access the Fluke 289 recorded data directly, 'read-only' of course, much in the same way as getting data from a modern Keithley or Keysight bench meter. To that end, I'm contributing to a long-standing 289 eevblog forum thread:https://www.eevblog.com/forum/reviews/going-further-with-the-fluke-289 
+What would be better would be the ability to access the Fluke 289 recorded data directly, 'read-only' of course, much in the same way as getting data from a modern Keithley or Keysight bench meter. To that end, I'm contributing to a long-standing 289 eevblog forum thread: https://www.eevblog.com/forum/reviews/going-further-with-the-fluke-289/ 
 
 This is not an exercise in 'reverse-engineering' or alternative firmware creation, just a little probing with Python into features documented in the Remote Interface Specification using a Fluke IR USB interface.
